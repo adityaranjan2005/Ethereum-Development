@@ -1,3 +1,5 @@
+# Task
+
 ## Brute Force Hashing
 Cryptographic Hash Functions like SHA256 are one-way functions. This means that if you have the input, it's relatively trivial to find the output. On the other hand, if you have the output, it is infeasible to find the input.
 
