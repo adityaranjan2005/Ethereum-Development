@@ -1,4 +1,4 @@
-@@ Your Goal: Link Blocks
+## Your Goal: Link Blocks
 To link the blocks you have to accomplish two things:
 
 Add a previousHash property to each block. The value of this property should be the hash of the block before it in the chain.
