@@ -8,3 +8,5 @@ A good spot to add the previousHash property on the block would be in the addBlo
 So far, the Block class in your Block.js file does not yet contain a previousHash property and currently only hashes this.data of a block - you must also include the block's this.previousHash property in the toHash function!
 You can add multiple inputs to the SHA256 function by using the + operator, for example:
 const hash = SHA256("dog" + "cat"); // hash of dog and cat together
+
+![image](https://github.com/adityaranjan2005/Ethereum-Development/assets/145968304/ca4fd7d3-f6c7-4d11-8de5-d0716aef7236)
