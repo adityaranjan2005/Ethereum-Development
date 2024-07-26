@@ -10,11 +10,12 @@ Update the getRoot function to handle merkle trees with more than two leaf nodes
 
 When breaking down the logic of merkle trees, first we hash together A and B, then we hash together C and D. Then we hash together the combination of A and B (AB) with the combination of C and D (CD). Something like this:
 
-    ABCD
-    /  \ 
-   AB  CD
-  / \  / \
-  A B  C D
+     ABCD
+    /    \ 
+   AB    CD
+  / \    / \
+ A   B  C   D
+ 
 Writing the code you will likely find it useful to think of the tree as having multiple layers:
 
 The first layer is the leaves (A, B, C, D)
