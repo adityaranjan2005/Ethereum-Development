@@ -16,7 +16,7 @@ For instance if we were looking for 7 on this tree:
 
  After recognizing that 7 is greater than 5, we attempt to move right, but there is no right node! We return false.
 
-## Your Goal: hasNode Method
+## Your Goal: has Node Method
 Add a method hasNode that will take a number and search our tree to find a node that has that number inside it's data property.
 
 If a node exists with the number, return true. If not return false.
